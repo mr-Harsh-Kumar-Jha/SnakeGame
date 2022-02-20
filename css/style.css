@@ -1,0 +1,79 @@
+*{
+   padding:0;
+   margin:0;
+   box-sizing: border-box;
+}
+
+.container{
+   background:  url("../img/bg.jpg")  center center/cover no-repeat;
+   min-height: 100vh;
+   background-size: 100vw 100vh;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   position:relative;
+}
+#board{
+   background: linear-gradient(rgb(170, 236, 170), rgb(236, 236, 167));
+   width: 90vmin;
+   height: 92vmin;
+   display:grid;
+   /* margin-right: 100px; */
+   border: 2px solid black;
+   grid-template-rows: repeat(18, 1fr);
+   grid-template-columns: repeat(18, 1fr);
+
+}
+
+.head{
+   background: linear-gradient(rgb(6, 131, 44), rgb(228, 228, 129));
+   border: 2px solid rgb(34, 4, 34);
+   transform: scale(1.02);
+   border-radius: 9px;
+}
+
+.snake{
+   background-color: rgb(82, 236, 31);
+   border: .25vmin solid rgb(83, 80, 80);
+   border-radius: 12px;
+}
+
+.food{
+   background: linear-gradient(red, purple);
+   border: .25vmin solid black;
+   border-radius: 8px;
+}
+
+.level{
+   position:absolute;
+    top: 150px;
+    left:50px;
+}
+
+#framework{
+   border:2px solid rgb(111, 89, 236);
+   padding:10px;
+   padding-right:5px;
+   border-radius:20px;
+   cursor:pointer;
+   font-size: larger;
+}
+
+#scoreBox{
+   position: absolute;
+   top: 9px;
+   left: 50px;
+   font-size: 39px;
+   font-weight: bold;
+   font-family: 'New Tegomin', serif;
+}
+
+#hiscoreBox{
+   position: absolute;
+   top: 59px;
+   left: 50px;
+   font-size: 39px;
+   font-weight: bold;
+   font-family: 'New Tegomin', serif;
+}
