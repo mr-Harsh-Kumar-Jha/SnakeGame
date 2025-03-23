@@ -38,7 +38,7 @@ To get started with this project, follow the steps below:
    ```bash
    git clone https://github.com/mr-Harsh-Kumar-Jha/SnakeGame.git
 
-2. **Navigate to the project directory:
+2. **Navigate to the project directory**:
    ```bash
    cd SnakeGame
 
@@ -47,25 +47,22 @@ To get started with this project, follow the steps below:
 ## Contribution Guide
 
 Contributions are welcome! To contribute to this repository, follow these steps:
-- **Fork the repository:
-  Click the "Fork" button at the top right corner of this page to create a copy of this repository in your GitHub account.
-- **Clone your forked repository:
+- **Fork the repository**: Click the "Fork" button at the top right corner of this page to create a copy of this repository in your GitHub account.
+- **Clone your forked repository**:
   ```bash
   git clone https://github.com/your-username/SnakeGame.git
-- **Create a new branch:
+- **Create a new branch**:
   ```bash
   git checkout -b feature/your-feature-name
-- **Make your changes:
-  Improve the game or add new features.
-- **Commit your changes:
+- **Make your changes**: Improve the game or add new features.
+- **Commit your changes**:
   ```bash
   git add .
   git commit -m "Add your commit message"
-- **Push to your forked repository:
+- **Push to your forked repository**:
   ```bash
   git push origin feature/your-feature-name
-- **Create a pull request:
-  Go to the original repository on GitHub and create a pull request to merge your changes.
+- **Create a pull request**: Go to the original repository on GitHub and create a pull request to merge your changes.
 
 ## License
 
